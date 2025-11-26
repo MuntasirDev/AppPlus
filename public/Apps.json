@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "FocusFlow",
+    "category": "Productivity",
+    "rating": 4.9,
+    "downloads": 1200000,
+    "thumbnail": "https://source.unsplash.com/400x400/?productivity,timer",
+    "description": "The ultimate Pomodoro timer and task manager."
+  },
+  {
+    "id": 2,
+    "name": "NoteWave",
+    "category": "Productivity",
+    "rating": 4.5,
+    "downloads": 850000,
+    "thumbnail": "https://source.unsplash.com/400x400/?notes,writing",
+    "description": "Seamless cross-device note synchronization."
+  },
+  {
+    "id": 3,
+    "name": "BudgetBuddy",
+    "category": "Productivity",
+    "rating": 4.8,
+    "downloads": 1500000,
+    "thumbnail": "https://source.unsplash.com/400x400/?finance,budget",
+    "description": "Track your expenses effortlessly and save money."
+  },
+  {
+    "id": 4,
+    "name": "ScheduleSync",
+    "category": "Productivity",
+    "rating": 4.2,
+    "downloads": 400000,
+    "thumbnail": "https://source.unsplash.com/400x400/?calendar,meetings",
+    "description": "Smart scheduling and meeting organizer."
+  },
+  {
+    "id": 5,
+    "name": "SleepZen",
+    "category": "Health",
+    "rating": 4.7,
+    "downloads": 2100000,
+    "thumbnail": "https://source.unsplash.com/400x400/?sleep,meditation",
+    "description": "Guided meditations and sleep stories for better rest."
+  },
+  {
+    "id": 6,
+    "name": "FitTracker Pro",
+    "category": "Health",
+    "rating": 4.9,
+    "downloads": 3200000,
+    "thumbnail": "https://source.unsplash.com/400x400/?fitness,running",
+    "description": "Monitor daily activity, steps, and calories burned."
+  },
+  {
+    "id": 7,
+    "name": "MindfulMeals",
+    "category": "Health",
+    "rating": 4.4,
+    "downloads": 780000,
+    "thumbnail": "https://source.unsplash.com/400x400/?food,nutrition",
+    "description": "AI-powered meal logging and nutritional analysis."
+  },
+  {
+    "id": 8,
+    "name": "HydrateNow",
+    "category": "Health",
+    "rating": 4.6,
+    "downloads": 950000,
+    "thumbnail": "https://source.unsplash.com/400x400/?water,drink",
+    "description": "Reminders to keep you hydrated throughout the day."
+  },
+  {
+    "id": 9,
+    "name": "PixelBrush",
+    "category": "Creativity",
+    "rating": 4.8,
+    "downloads": 1800000,
+    "thumbnail": "https://source.unsplash.com/400x400/?art,drawing",
+    "description": "A powerful digital drawing and painting application."
+  },
+  {
+    "id": 10,
+    "name": "VideoEdit Pro",
+    "category": "Creativity",
+    "rating": 4.3,
+    "downloads": 600000,
+    "thumbnail": "https://source.unsplash.com/400x400/?video,editing",
+    "description": "Professional-grade mobile video editing tools."
+  },
+  {
+    "id": 11,
+    "name": "MusicMixer",
+    "category": "Creativity",
+    "rating": 4.7,
+    "downloads": 1100000,
+    "thumbnail": "https://source.unsplash.com/400x400/?music,audio",
+    "description": "Create and mix beats easily with built-in loops."
+  },
+  {
+    "id": 12,
+    "name": "DesignGenie",
+    "category": "Creativity",
+    "rating": 4.1,
+    "downloads": 320000,
+    "thumbnail": "https://source.unsplash.com/400x400/?graphic,design",
+    "description": "Simple graphic design for social media and branding."
+  },
+  {
+    "id": 13,
+    "name": "TaskMaster",
+    "category": "Productivity",
+    "rating": 4.9,
+    "downloads": 2500000,
+    "thumbnail": "https://source.unsplash.com/400x400/?todo,checklist",
+    "description": "Advanced task management and team collaboration."
+  },
+  {
+    "id": 14,
+    "name": "YogaDaily",
+    "category": "Health",
+    "rating": 4.8,
+    "downloads": 1900000,
+    "thumbnail": "https://source.unsplash.com/400x400/?yoga,stretching",
+    "description": "Daily guided yoga and fitness routines."
+  },
+  {
+    "id": 15,
+    "name": "PhotoTune",
+    "category": "Creativity",
+    "rating": 4.6,
+    "downloads": 700000,
+    "thumbnail": "https://source.unsplash.com/400x400/?photo,filter",
+    "description": "Intuitive photo editor with professional filters."
+  },
+  {
+    "id": 16,
+    "name": "HabitForge",
+    "category": "Productivity",
+    "rating": 4.7,
+    "downloads": 1400000,
+    "thumbnail": "https://source.unsplash.com/400x400/?habit,tracking",
+    "description": "Build and track positive habits easily."
+  }
+]
