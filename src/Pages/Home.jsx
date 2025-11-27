@@ -61,7 +61,7 @@ const Home = () => {
                             <Link to="/apps" className={primaryButtonClass}>
                                 Browse Apps
                             </Link>
-                            <Link to="/register" className={outlineButtonClass}>
+                            <Link to="/auth/register" className={outlineButtonClass}>
                                 Get Started
                             </Link>
                         </div>
@@ -141,7 +141,7 @@ const Home = () => {
                         <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
                             Join thousands of users who trust AppStore for their app discovery needs.
                         </p>
-                        <Link to="/register">
+                        <Link to="/auth/register">
                             {/* CTA Button (Secondary Style) */}
                             <button className="bg-white text-indigo-700 font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-white/90 transition-colors text-lg">
                                 Create Free Account
