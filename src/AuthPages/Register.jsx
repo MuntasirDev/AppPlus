@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 // ✅ FIX: Changed 'react-router' to 'react-router-dom'
-import { Link, useNavigate } from "react-router"; 
+import { Link, useNavigate } from "react-router-dom"; 
 import { BsGoogle } from "react-icons/bs";
 import { AuthContext } from "../Provider/AuthProvider";
 

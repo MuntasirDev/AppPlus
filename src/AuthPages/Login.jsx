@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-// ✅ FIX: Import Link and useNavigate from 'react-router-dom' 
-import { Link, useNavigate } from "react-router"; 
+// ✅ Keep it react router 'react-router
+import { Link, useNavigate } from "react-router-dom"; 
 import { BsGoogle } from "react-icons/bs";
 import { AuthContext } from "../Provider/AuthProvider";
 

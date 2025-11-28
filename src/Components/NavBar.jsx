@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react"; 
-import { Link, useLocation } from "react-router"; 
+import { Link, useLocation } from "react-router-dom"; 
 import { User, LogOut } from "lucide-react"; 
 import logo from "../assets/appPlus_logo.png"; 
 import { AuthContext } from "../Provider/AuthProvider";
@@ -17,7 +17,7 @@ const Navbar = () => {
     const handleLogout = () => {
         logOut()
             .then(() => {
-                console.log("User Logged out successfully.");
+                console.log("User signed out successfully.");
             })
             .catch(error => {
                 console.error("Logout error:", error);
@@ -49,12 +49,7 @@ const Navbar = () => {
                   <img src={logo} alt="AppPlus Logo" className="h-12 w-auto p-1 bg-gray-950 rounded-lg"/>
               </div>
 
-            {/* Display user info/email if logged in */}
-            {user && user.email && (
-                <div className="text-sm font-medium text-gray-400 hidden sm:block">
-                    {user.email}
-                </div>
-            )}
+           
 
               {/* App Title and Tagline */}
               <div className="flex flex-col leading-none">
@@ -91,7 +86,7 @@ const Navbar = () => {
                     isActive("/my-profile") ? textGradientClass : "text-white/80" 
                   }`}
                 >
-                  My Profile
+                   My Profile
                 </Link>
               )}
 
@@ -101,7 +96,7 @@ const Navbar = () => {
                 // Log Out Button (Desktop) - Using a solid brand color for distinction
                 <button
                   onClick={handleLogout}
-                  className={`flex items-center gap-1 p-5 rounded-xl font-bold shadow-xl bg-linear-to-r from-indigo-600 via-teal-500 to-indigo-400 hover:opacity-90`}
+                  className={`flex items-center  gap-3 px-4 py-2 rounded-full font-bold shadow-xl bg-linear-to-r from-indigo-600 via-teal-500 to-indigo-400 hover:opacity-90`}
                 >
                   <LogOut className="h-5 w-5" />
                   Log Out
