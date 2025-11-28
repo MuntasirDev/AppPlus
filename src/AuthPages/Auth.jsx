@@ -5,7 +5,7 @@ import { Outlet } from 'react-router';
 const Auth = () => {
     return (
         <div>
-            <header>
+            <header className='sticky top-0'>
                 <Navbar></Navbar>
             </header>
             <main>
@@ -17,3 +17,4 @@ const Auth = () => {
 };
 
 export default Auth;
+
