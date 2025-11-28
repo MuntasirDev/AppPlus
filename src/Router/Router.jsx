@@ -5,6 +5,7 @@ import BrowseApps from "../Pages/browseApps";
 import Login from "../AuthPages/Login";
 import Auth from "../AuthPages/Auth";
 import Register from "../AuthPages/Register";
+import AppDetail from "../Pages/AppsDetails";
 
 // The loader function remains unchanged
 const appsLoader = async () => {
@@ -35,8 +36,9 @@ export const router = createBrowserRouter([
         
         
         path: "app/:id",
-        element: <AppDetail />,
-      
+        element: <AppDetail></AppDetail>,
+        loader: appsLoader,
+
       },
     ],
   },

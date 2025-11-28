@@ -4,7 +4,7 @@
     "name": "FocusFlow",
     "developer": "Productive Minds Inc.",
     "thumbnail": "https://i.imgur.com/8gzpKsO.png",
-    "banner": "https://i.ibb.co/L5hYwX3/focusflow-banner.jpg",
+    "banner": "https://i.imgur.com/8gzpKsO.png",
     "downloads": 1200000,
     "category": "Productivity",
     "rating": 4.9,
@@ -17,23 +17,23 @@
     ],
     "reviews": [
         {
-            "user": "time_master_21",
+            "user": "Kamrul Hasan",
             "rating": 5,
             "comment": "Changed the way I work! The seamless integration between the timer and tasks is brilliant."
         },
         {
-            "user": "busy_bee",
+            "user": "Ahmed Shafayet",
             "rating": 4,
             "comment": "Great interface and very effective, though I wish there were more notification sounds."
         }
     ]
 },
  {
-    "id": "2"",
+    "id": "2",
     "name": "NoteWave",
     "developer": "Creative Sync Labs",
     "thumbnail": "https://i.imgur.com/YkRyY3N.png",
-    "banner": "https://i.ibb.co/T3P9LhN/notewave-banner.jpg",
+    "banner": "https://i.imgur.com/YkRyY3N.png",
     "downloads": 850000,
     "category": "Productivity",
     "rating": 4.5,
@@ -46,12 +46,12 @@
     ],
     "reviews": [
         {
-            "user": "sync_queen",
+            "user": "Saifullah",
             "rating": 5,
             "comment": "The sync is truly seamless. I can start typing on my phone and finish on my desktop without a hitch."
         },
         {
-            "user": "student_mike",
+            "user": "Mizan Talukdar",
             "rating": 4,
             "comment": "Great app, though the interface could use a few more customization options."
         }
@@ -62,7 +62,7 @@
     "name": "BudgetBuddy",
     "developer": "Financial Freedom Co.",
     "thumbnail": "https://i.imgur.com/8NEUBUG.jpeg",
-    "banner": "https://i.ibb.co/VdK6rN8/budgetbuddy-banner.jpg",
+    "banner": "https://i.imgur.com/8NEUBUG.jpeg",
     "downloads": 1500000,
     "category": "Productivity",
     "rating": 4.8,
@@ -75,12 +75,12 @@
     ],
     "reviews": [
         {
-            "user": "savvy_saver",
+            "user": "Maruf",
             "rating": 5,
             "comment": "Absolutely essential for keeping my finances on track. The visual charts make budgeting easy."
         },
         {
-            "user": "new_user_dan",
+            "user": "Emon",
             "rating": 4,
             "comment": "Very helpful for tracking, but takes a little while to set up the initial budget structure."
         }
@@ -91,7 +91,7 @@
     "name": "ScheduleSync",
     "developer": "TimeWise Solutions",
     "thumbnail": "https://i.imgur.com/bPCaPMZ.png",
-    "banner": "https://i.ibb.co/5DcL8Jb/schedulesync-banner.jpg",
+    "banner": "https://i.imgur.com/bPCaPMZ.png",
     "downloads": 400000,
     "category": "Productivity",
     "rating": 4.2,
@@ -104,7 +104,7 @@
     ],
     "reviews": [
         {
-            "user": "corporate_chris",
+            "user": "Kutub Tawsif",
             "rating": 4,
             "comment": "Good tool for team scheduling. Saves a lot of back-and-forth email time."
         }
@@ -114,8 +114,8 @@
     "id": "5",
     "name": "SleepZen",
     "developer": "Restful Rhythms",
-    "thumbnail": "https://i.imgur.com/1dPXdH6.png",
-    "banner": "https://i.ibb.co/Z9bM2G4/sleepzen-banner.jpg",
+    "thumbnail": "https://i.imgur.com/bPCaPMZ.png",
+    "banner": "https://i.imgur.com/bPCaPMZ.png",
     "downloads": 2100000,
     "category": "Health",
     "rating": 4.7,
@@ -128,12 +128,12 @@
     ],
     "reviews": [
         {
-            "user": "dreamer_maya",
+            "user": "Fahim haider",
             "rating": 5,
             "comment": "The sleep stories are fantastic! This app is now essential to my nightly routine."
         },
         {
-            "user": "tired_dad",
+            "user": "Muntasir",
             "rating": 4,
             "comment": "Helps me relax, but the premium content is a bit expensive."
         }
@@ -144,7 +144,7 @@
     "name": "FitTracker Pro",
     "developer": "Peak Performance Devs",
     "thumbnail": "https://i.imgur.com/r68yTDI.png",
-    "banner": "https://i.ibb.co/30hS9Hk/fittracker-banner.jpg",
+    "banner": "https://i.imgur.com/r68yTDI.png",
     "downloads": 3200000,
     "category": "Health",
     "rating": 4.9,
@@ -157,12 +157,12 @@
     ],
     "reviews": [
         {
-            "user": "marathon_mike",
+            "user": "Mahi",
             "rating": 5,
             "comment": "The best tracker I've ever used. The data visualization is clear and highly motivating."
         },
         {
-            "user": "jane_runs",
+            "user": "Tanim",
             "rating": 5,
             "comment": "Perfect for serious athletes and casual exercisers alike."
         }
@@ -173,7 +173,7 @@
     "name": "MindfulMeals",
     "developer": "NutriSense AI",
     "thumbnail": "https://i.imgur.com/vzWaoE3.png",
-    "banner": "https://i.ibb.co/7XgW9R4/mindfulmeals-banner.jpg",
+    "banner": "https://i.imgur.com/vzWaoE3.png",
     "downloads": 780000,
     "category": "Health",
     "rating": 4.4,
@@ -186,7 +186,7 @@
     ],
     "reviews": [
         {
-            "user": "diet_pro",
+            "user": "Nabil",
             "rating": 4,
             "comment": "The photo logging feature is a huge time-saver. Accuracy is generally good, but sometimes needs minor corrections."
         }
@@ -197,7 +197,7 @@
     "name": "HydrateNow",
     "developer": "Aqua Devs",
     "thumbnail": "https://i.imgur.com/vL1PeyC.png",
-    "banner": "https://i.ibb.co/K5mD6v8/hydratenow-banner.jpg",
+    "banner": "https://i.imgur.com/vL1PeyC.png",
     "downloads": 950000,
     "category": "Health",
     "rating": 4.6,
@@ -210,12 +210,12 @@
     ],
     "reviews": [
         {
-            "user": "water_worry",
+            "user": "Mahim",
             "rating": 5,
             "comment": "I finally drink enough water! The reminders are gentle but effective."
         },
         {
-            "user": "fitness_fan",
+            "user": "Tanjim",
             "rating": 4,
             "comment": "Excellent tracker. Integration with my fitness watch works flawlessly."
         }
@@ -226,7 +226,7 @@
     "name": "PixelBrush",
     "developer": "Artistic Tools Ltd.",
     "thumbnail": "https://i.imgur.com/iWEO01Y.png",
-    "banner": "https://i.ibb.co/v6y7S9f/pixelbrush-banner.jpg",
+    "banner": "https://i.imgur.com/iWEO01Y.png",
     "downloads": 1800000,
     "category": "Creativity",
     "rating": 4.8,
@@ -239,12 +239,12 @@
     ],
     "reviews": [
         {
-            "user": "digital_drew",
+            "user": "Mahir Jamal",
             "rating": 5,
             "comment": "Rivals desktop software! The brush customization options are insane."
         },
         {
-            "user": "hobby_artist",
+            "user": "Asfaqur Farez",
             "rating": 4,
             "comment": "Great tool, though it takes a little while to learn all the features."
         }
@@ -255,7 +255,7 @@
     "name": "VideoEdit Pro",
     "developer": "Mobile Cinema Co.",
     "thumbnail": "https://i.imgur.com/01JLoFh.png",
-    "banner": "https://i.ibb.co/pLg4xS9/videoeditpro-banner.jpg",
+    "banner": "https://i.imgur.com/01JLoFh.png",
     "downloads": 600000,
     "category": "Creativity",
     "rating": 4.3,
@@ -268,12 +268,12 @@
     ],
     "reviews": [
         {
-            "user": "vlogger_vanessa",
+            "user": "tasbir",
             "rating": 4,
             "comment": "Solid mobile editor. Fast rendering speed is a huge plus for quick uploads."
         },
         {
-            "user": "film_enthusiast",
+            "user": "Jamshed",
             "rating": 4,
             "comment": "Good range of tools, though some advanced features are locked behind a paywall."
         }
@@ -284,7 +284,7 @@
     "name": "MusicMixer",
     "developer": "Beat Masters Inc.",
     "thumbnail": "https://i.imgur.com/OM42GPP.png",
-    "banner": "https://i.ibb.co/gT7XqD3/musicmixer-banner.jpg",
+    "banner": "hhttps://i.imgur.com/OM42GPP.png",
     "downloads": 1100000,
     "category": "Creativity",
     "rating": 4.7,
@@ -297,12 +297,12 @@
     ],
     "reviews": [
         {
-            "user": "dj_khaled_fan",
+            "user": "Jahangir Reza",
             "rating": 5,
             "comment": "So much fun! I made my first track within an hour. Highly recommended for music hobbyists."
         },
         {
-            "user": "producer_paul",
+            "user": "Mahmud",
             "rating": 4,
             "comment": "Great starting point, excellent loop library."
         }
@@ -313,7 +313,7 @@
     "name": "DesignGenie",
     "developer": "Visual Magic Studios",
     "thumbnail": "https://i.imgur.com/q7tFNIN.png",
-    "banner": "https://i.ibb.co/8Yj0gZt/designgenie-banner.jpg",
+    "banner": "https://i.imgur.com/q7tFNIN.png",
     "downloads": 320000,
     "category": "Creativity",
     "rating": 4.1,
@@ -326,12 +326,12 @@
     ],
     "reviews": [
         {
-            "user": "small_biz_owner",
+            "user": "Muhit",
             "rating": 4,
             "comment": "Makes designing quick and easy. Essential for my daily social media posting."
         },
         {
-            "user": "non_designer_ali",
+            "user": "Tawsif",
             "rating": 4,
             "comment": "Very intuitive and easy to use, perfect for someone with no prior design experience."
         }
@@ -343,7 +343,7 @@
     "name": "TaskMaster",
     "developer": "Productivity Hub",
     "thumbnail": "https://i.imgur.com/yOg2nDl.jpeg",
-    "banner": "https://i.ibb.co/8Yj0gZt/taskmaster16-banner.jpg",
+    "banner": "https://i.imgur.com/yOg2nDl.jpeg",
     "downloads": 2500000,
     "category": "Productivity",
     "rating": 4.9,
@@ -356,12 +356,12 @@
     ],
     "reviews": [
         {
-            "user": "project_manager_x",
+            "user": "jamil AS-Ad",
             "rating": 5,
             "comment": "The best tool for managing complex projects. The collaboration features are flawless."
         },
         {
-            "user": "solo_worker",
+            "user": "Ryhanuzzaman",
             "rating": 5,
             "comment": "Even for solo work, this app is incredibly powerful for staying organized."
         }
@@ -372,7 +372,7 @@
     "name": "YogaDaily",
     "developer": "Body & Mind Wellness",
     "thumbnail": "https://i.imgur.com/cblWHMW.png",
-    "banner": "https://i.ibb.co/3sS7L7W/yogadaily17-banner.jpg",
+    "banner": "https://i.imgur.com/cblWHMW.png",
     "downloads": 1900000,
     "category": "Health",
     "rating": 4.8,
@@ -385,12 +385,12 @@
     ],
     "reviews": [
         {
-            "user": "zen_master_sarah",
+            "user": "Nazmul farhad",
             "rating": 5,
             "comment": "Fantastic instructors and beautiful interface. My daily go-to for yoga."
         },
         {
-            "user": "new_to_yoga",
+            "user": "Adnan Kibria",
             "rating": 4,
             "comment": "Great starting point for beginners, very clear instructions."
         }
@@ -401,7 +401,7 @@
     "name": "PhotoTune",
     "developer": "Image Perfect Studio",
     "thumbnail": "https://i.imgur.com/OtaqoKn.png",
-    "banner": "https://i.ibb.co/M9dG7yP/phototune18-banner.jpg",
+    "banner": "https://i.imgur.com/OtaqoKn.png",
     "downloads": 700000,
     "category": "Creativity",
     "rating": 4.6,
@@ -414,7 +414,7 @@
     ],
     "reviews": [
         {
-            "user": "insta_shooter",
+            "user": "Hasibur",
             "rating": 5,
             "comment": "Best mobile editor for quickly getting a professional look. The filters are stunning."
         }
@@ -425,7 +425,7 @@
     "name": "HabitForge",
     "developer": "Behavioral Science Apps",
     "thumbnail": "https://i.imgur.com/M2T4HXi.png",
-    "banner": "https://i.ibb.co/V3r9bW0/habitforge19-banner.jpg",
+    "banner": "https://i.imgur.com/M2T4HXi.png",
     "downloads": 1400000,
     "category": "Productivity",
     "rating": 4.7,
@@ -438,12 +438,12 @@
     ],
     "reviews": [
         {
-            "user": "routine_robot",
+            "user": "Aftakhil",
             "rating": 5,
             "comment": "This app turned my life around! The streak feature is incredibly motivating."
         },
         {
-            "user": "new_to_habits",
+            "user": "Zillur rahman",
             "rating": 4,
             "comment": "Simple interface and great tracking. I wish there were more integrations."
         }
