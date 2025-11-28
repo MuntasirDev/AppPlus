@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "FocusFlow",
     "developer": "Productive Minds Inc.",
     "thumbnail": "https://i.imgur.com/8gzpKsO.png",
@@ -29,7 +29,7 @@
     ]
 },
  {
-    "id": 2,
+    "id": "2"",
     "name": "NoteWave",
     "developer": "Creative Sync Labs",
     "thumbnail": "https://i.imgur.com/YkRyY3N.png",
@@ -58,7 +58,7 @@
     ]
 },
   {
-    "id": 3,
+    "id": "3",
     "name": "BudgetBuddy",
     "developer": "Financial Freedom Co.",
     "thumbnail": "https://i.imgur.com/8NEUBUG.jpeg",
@@ -87,7 +87,7 @@
     ]
 },
  {
-    "id": 4,
+    "id": "4",
     "name": "ScheduleSync",
     "developer": "TimeWise Solutions",
     "thumbnail": "https://i.imgur.com/bPCaPMZ.png",
@@ -111,7 +111,7 @@
     ]
 },
  {
-    "id": 5,
+    "id": "5",
     "name": "SleepZen",
     "developer": "Restful Rhythms",
     "thumbnail": "https://i.imgur.com/1dPXdH6.png",
@@ -140,7 +140,7 @@
     ]
 },
  {
-    "id": 6,
+    "id": "6",
     "name": "FitTracker Pro",
     "developer": "Peak Performance Devs",
     "thumbnail": "https://i.imgur.com/r68yTDI.png",
@@ -169,7 +169,7 @@
     ]
 },
  {
-    "id": 7,
+    "id": "7",
     "name": "MindfulMeals",
     "developer": "NutriSense AI",
     "thumbnail": "https://i.imgur.com/vzWaoE3.png",
@@ -193,7 +193,7 @@
     ]
 },
  {
-    "id": 8,
+    "id": "8",
     "name": "HydrateNow",
     "developer": "Aqua Devs",
     "thumbnail": "https://i.imgur.com/vL1PeyC.png",
@@ -222,7 +222,7 @@
     ]
 },
  {
-    "id": 9,
+    "id": "9",
     "name": "PixelBrush",
     "developer": "Artistic Tools Ltd.",
     "thumbnail": "https://i.imgur.com/iWEO01Y.png",
@@ -251,7 +251,7 @@
     ]
 },
  {
-    "id": 10,
+    "id": "10",
     "name": "VideoEdit Pro",
     "developer": "Mobile Cinema Co.",
     "thumbnail": "https://i.imgur.com/01JLoFh.png",
@@ -280,7 +280,7 @@
     ]
 },
   {
-    "id": 11,
+    "id": "11",
     "name": "MusicMixer",
     "developer": "Beat Masters Inc.",
     "thumbnail": "https://i.imgur.com/OM42GPP.png",
@@ -309,7 +309,7 @@
     ]
 },
  {
-    "id": 12,
+    "id": "12",
     "name": "DesignGenie",
     "developer": "Visual Magic Studios",
     "thumbnail": "https://i.imgur.com/q7tFNIN.png",
@@ -339,7 +339,7 @@
 },
 
  {
-    "id": 16,
+    "id": "13",
     "name": "TaskMaster",
     "developer": "Productivity Hub",
     "thumbnail": "https://i.imgur.com/yOg2nDl.jpeg",
@@ -368,7 +368,7 @@
     ]
 },
   {
-    "id": 17,
+    "id": "14",
     "name": "YogaDaily",
     "developer": "Body & Mind Wellness",
     "thumbnail": "https://i.imgur.com/cblWHMW.png",
@@ -397,7 +397,7 @@
     ]
 },
   {
-    "id": 18,
+    "id": "15",
     "name": "PhotoTune",
     "developer": "Image Perfect Studio",
     "thumbnail": "https://i.imgur.com/OtaqoKn.png",
@@ -421,7 +421,7 @@
     ]
 },
   {
-    "id": 19,
+    "id": "16",
     "name": "HabitForge",
     "developer": "Behavioral Science Apps",
     "thumbnail": "https://i.imgur.com/M2T4HXi.png",

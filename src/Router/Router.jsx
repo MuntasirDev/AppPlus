@@ -8,47 +8,54 @@ import Register from "../AuthPages/Register";
 
 // The loader function remains unchanged
 const appsLoader = async () => {
-    const response = await fetch("/Apps.json");
-    if (!response.ok) {
-        throw new Error("Failed to load Apps data.");
-    }
-    return response.json();
+  const response = await fetch("/Apps.json");
+  if (!response.ok) {
+    throw new Error("Failed to load Apps data.");
+  }
+  return response.json();
 };
 
 export const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <HomeLayouts />,
-        children: [
-            {
-                // Root path of the application when using HomeLayouts
-                index: true,
-                element: <Home />,
-            },
-            {
-                // Full path: /apps
-                path: "apps",
-                element: <BrowseApps />,
-                loader: appsLoader,
-            },
-        ],
-    },
-    {
-        // Top-level route for authentication views
-        path: "auth",
-        element: <Auth />,
-        children: [
-            {
-                // ✅ FIX: Path must be "login" (relative) or "/auth/login" (absolute).
-                // Using the relative path "login" here. Full path is /auth/login.
-                path: "/auth/login", 
-                element: <Login></Login>,
-            },
+  {
+    path: "/",
+    element: <HomeLayouts />,
+    children: [
+      {
+        // Root path of the application when using HomeLayouts
+        index: true,
+        element: <Home />,
+      },
+      {
+        // Full path: /apps
+        path: "apps",
+        element: <BrowseApps />,
+        loader: appsLoader,
+      },
+      {
+        
+        
+        path: "app/:id",
+        element: <AppDetail />,
+      
+      },
+    ],
+  },
+  {
+    // Top-level route for authentication views
+    path: "auth",
+    element: <Auth />,
+    children: [
+      {
+        // ✅ FIX: Path must be "login" (relative) or "/auth/login" (absolute).
+        // Using the relative path "login" here. Full path is /auth/login.
+        path: "/auth/login",
+        element: <Login></Login>,
+      },
 
-            {
-              path: "/auth/register",
-              element: <Register></Register>
-            }
-        ],
-    },
+      {
+        path: "/auth/register",
+        element: <Register></Register>,
+      },
+    ],
+  },
 ]);
