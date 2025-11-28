@@ -42,8 +42,8 @@ const Home = () => {
                         
                         {/* Status/Badge */}
                         <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-gray-800 border border-indigo-600/50">
-                            <Star className={`h-4 w-4 ${textGradientClass} fill-current`} />
-                            <span className="text-sm font-medium text-gray-300">Top Rated App Platform</span>
+                            <Star className="text-violet-500"/>
+                            <span className="text-sm font-bold text-gray-300">Top Rated App Platform</span>
                         </div>
                         
                         {/* Main Heading */}
