@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 import { Github, Twitter, Linkedin, Mail } from "lucide-react";
-import { Briefcase,  Rss, Info, Phone,  } from "lucide-react";
-
+import { Briefcase, Rss, Info, Phone } from "lucide-react";
 
 const Footer = () => {
   const textGradientClass =

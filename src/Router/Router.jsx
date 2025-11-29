@@ -35,26 +35,20 @@ export const router = createBrowserRouter([
       },
       {
         path: "/my-profile",
-        element: <MyProfile></MyProfile>
-      
+        element: <MyProfile></MyProfile>,
       },
-      { 
-        
+      {
         path: "app/:id",
         element: <AppDetail></AppDetail>,
         loader: appsLoader,
-
       },
     ],
   },
   {
-    // Top-level route for authentication views
     path: "auth",
     element: <Auth />,
     children: [
       {
-        // ✅ FIX: Path must be "login" (relative) or "/auth/login" (absolute).
-        // Using the relative path "login" here. Full path is /auth/login.
         path: "/auth/login",
         element: <Login></Login>,
       },

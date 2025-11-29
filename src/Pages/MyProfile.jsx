@@ -1,9 +1,5 @@
-// src/pages/MyProfile.jsx (Final version with correct API call)
-
 import React, { useState, useEffect } from "react";
 import { User, Mail, Image, Save } from "lucide-react";
-
-// 1. IMPORT THE REAL useAuth HOOK
 import useAuth from '../Provider/useAuth'; 
 
 
@@ -32,23 +28,18 @@ const CustomCardContent = ({ children, className = 'p-6' }) => (
         {children}
     </div>
 );
-
-
-// --- MAIN COMPONENT ---
 const MyProfile = () => {
-    // USING THE REAL HOOK: Retrieves user and updateUserProfile from Firebase AuthContext
+    
     const { user, updateUserProfile } = useAuth(); 
     const [name, setName] = useState("");
     const [photoURL, setPhotoURL] = useState("");
     const [isUpdating, setIsUpdating] = useState(false);
-    
-    // Fallback for profile image
     const getPhotoUrl = (url) => url || "https://api.dicebear.com/7.x/avataaars/svg?seed=User";
     
-    // Sync local state with user data from context
+   
     useEffect(() => {
         if (user) {
-            // Data initially populates from Firebase (displayName, email, photoURL)
+         
             setName(user.displayName || "");
             setPhotoURL(user.photoURL || "");
         }
@@ -64,12 +55,7 @@ const MyProfile = () => {
 
         setIsUpdating(true);
 
-        try {
-            // ✅ FIX: Call the REAL updateUserProfile with only name and photoURL
-            await updateUserProfile(name, photoURL); 
-            
-            // Since AuthProvider updates the state, the useEffect above will trigger
-            // and refresh all local state and UI automatically.
+        try { await updateUserProfile(name, photoURL); 
             alert("Profile updated successfully!"); 
         } catch (error) {
             console.error("Profile update failed:", error);
@@ -78,8 +64,6 @@ const MyProfile = () => {
             setIsUpdating(false);
         }
     };
-    
-    // Loading state implementation remains correct
     if (user === null) {
         return (
             <div className="min-h-screen bg-gray-950 text-white flex items-center justify-center">
@@ -87,8 +71,6 @@ const MyProfile = () => {
             </div>
         );
     }
-    
-    // Check if user is logged out (if user is explicitly null)
     if (!user) return (
         <div className="min-h-screen bg-gray-950 text-white flex items-center justify-center">
             <h1 className="text-2xl font-bold text-red-500">Please log in to view your profile.</h1>
@@ -101,16 +83,13 @@ const MyProfile = () => {
                 <h1 className="text-4xl font-extrabold mb-10 text-center text-indigo-400">
                     👤 My Profile
                 </h1>
-                
-                {/* Current Profile Display */}
                 <CustomCard className="mb-8">
                     <CustomCardHeader>
                         <CustomCardTitle>Current Information</CustomCardTitle>
                         <CustomCardDescription>View your account details</CustomCardDescription>
                     </CustomCardHeader>
                     <CustomCardContent className="space-y-6">
-                        {/* Profile Summary - Displays current Firebase data */}
-                        <div className="flex items-center gap-6 p-4 rounded-lg bg-gray-900 shadow-inner border border-gray-700">
+                      <div className="flex items-center gap-6 p-4 rounded-lg bg-gray-900 shadow-inner border border-gray-700">
                             <img
                                 src={getPhotoUrl(user.photoURL)}
                                 alt={user.displayName || "User"}
@@ -121,9 +100,7 @@ const MyProfile = () => {
                                 <p className="text-gray-400">{user.email}</p>
                             </div>
                         </div>
-                        
-                        {/* Detail Grid (Data fields updated from Firebase) */}
-                        <div className="grid gap-4">
+                     <div className="grid gap-4">
                             <div className="flex items-center gap-3 p-4 rounded-lg bg-gray-700/50">
                                 <User className="h-5 w-5 text-indigo-400" />
                                 <div className="flex-1">
@@ -150,18 +127,14 @@ const MyProfile = () => {
                         </div>
                     </CustomCardContent>
                 </CustomCard>
-                
-                {/* Edit Profile Form */}
-                <CustomCard>
+              <CustomCard>
                     <CustomCardHeader>
                         <CustomCardTitle>Edit Profile</CustomCardTitle>
                         <CustomCardDescription>Update your name and profile picture</CustomCardDescription>
                     </CustomCardHeader>
                     <CustomCardContent>
                         <form onSubmit={handleUpdateProfile} className="space-y-6">
-                            
-                            {/* Name Input - Pre-populated with current name */}
-                            <div className="space-y-2">
+                          <div className="space-y-2">
                                 <label htmlFor="name" className="block text-sm font-medium text-gray-300">Name</label>
                                 <input
                                     id="name"
@@ -174,9 +147,7 @@ const MyProfile = () => {
                                     disabled={isUpdating}
                                 />
                             </div>
-                            
-                            {/* Photo URL Input - Pre-populated with current URL */}
-                            <div className="space-y-2">
+                           <div className="space-y-2">
                                 <label htmlFor="photoURL" className="block text-sm font-medium text-gray-300">Photo URL</label>
                                 <input
                                     id="photoURL"
@@ -188,8 +159,6 @@ const MyProfile = () => {
                                     disabled={isUpdating}
                                 />
                             </div>
-                            
-                            {/* Save Button */}
                             <button 
                                 type="submit" 
                                 className="w-full py-3 rounded-xl text-lg font-bold transition shadow-md bg-indigo-600 hover:bg-indigo-700 flex items-center justify-center gap-2 disabled:opacity-50"

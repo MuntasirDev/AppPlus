@@ -10,25 +10,25 @@
     "rating": 4.9,
     "description": "The ultimate Pomodoro timer and task manager. FocusFlow helps you conquer procrastination and achieve peak concentration using structured work intervals.",
     "features": [
-        "Customizable Pomodoro timer settings",
-        "Integrated task list and planner",
-        "Distraction-free focus mode",
-        "Progress tracking and analytics"
+      "Customizable Pomodoro timer settings",
+      "Integrated task list and planner",
+      "Distraction-free focus mode",
+      "Progress tracking and analytics"
     ],
     "reviews": [
-        {
-            "user": "Kamrul Hasan",
-            "rating": 5,
-            "comment": "Changed the way I work! The seamless integration between the timer and tasks is brilliant."
-        },
-        {
-            "user": "Ahmed Shafayet",
-            "rating": 4,
-            "comment": "Great interface and very effective, though I wish there were more notification sounds."
-        }
+      {
+        "user": "Kamrul Hasan",
+        "rating": 5,
+        "comment": "Changed the way I work! The seamless integration between the timer and tasks is brilliant."
+      },
+      {
+        "user": "Ahmed Shafayet",
+        "rating": 4,
+        "comment": "Great interface and very effective, though I wish there were more notification sounds."
+      }
     ]
-},
- {
+  },
+  {
     "id": "2",
     "name": "NoteWave",
     "developer": "Creative Sync Labs",
@@ -39,24 +39,24 @@
     "rating": 4.5,
     "description": "Seamless cross-device note synchronization. Capture ideas instantly and access them anywhere with powerful organization tools.",
     "features": [
-        "Real-time cloud synchronization",
-        "Rich text and media embedding",
-        "Offline access and editing",
-        "Tagging and folder organization"
+      "Real-time cloud synchronization",
+      "Rich text and media embedding",
+      "Offline access and editing",
+      "Tagging and folder organization"
     ],
     "reviews": [
-        {
-            "user": "Saifullah",
-            "rating": 5,
-            "comment": "The sync is truly seamless. I can start typing on my phone and finish on my desktop without a hitch."
-        },
-        {
-            "user": "Mizan Talukdar",
-            "rating": 4,
-            "comment": "Great app, though the interface could use a few more customization options."
-        }
+      {
+        "user": "Saifullah",
+        "rating": 5,
+        "comment": "The sync is truly seamless. I can start typing on my phone and finish on my desktop without a hitch."
+      },
+      {
+        "user": "Mizan Talukdar",
+        "rating": 4,
+        "comment": "Great app, though the interface could use a few more customization options."
+      }
     ]
-},
+  },
   {
     "id": "3",
     "name": "BudgetBuddy",
@@ -68,25 +68,25 @@
     "rating": 4.8,
     "description": "Track your expenses effortlessly and save money. BudgetBuddy provides a clear overview of your finances with smart categorization and goal setting.",
     "features": [
-        "Automatic expense categorization",
-        "Monthly and yearly budget planning",
-        "Interactive spending charts",
-        "Secure bank syncing (optional)"
+      "Automatic expense categorization",
+      "Monthly and yearly budget planning",
+      "Interactive spending charts",
+      "Secure bank syncing (optional)"
     ],
     "reviews": [
-        {
-            "user": "Maruf",
-            "rating": 5,
-            "comment": "Absolutely essential for keeping my finances on track. The visual charts make budgeting easy."
-        },
-        {
-            "user": "Emon",
-            "rating": 4,
-            "comment": "Very helpful for tracking, but takes a little while to set up the initial budget structure."
-        }
+      {
+        "user": "Maruf",
+        "rating": 5,
+        "comment": "Absolutely essential for keeping my finances on track. The visual charts make budgeting easy."
+      },
+      {
+        "user": "Emon",
+        "rating": 4,
+        "comment": "Very helpful for tracking, but takes a little while to set up the initial budget structure."
+      }
     ]
-},
- {
+  },
+  {
     "id": "4",
     "name": "ScheduleSync",
     "developer": "TimeWise Solutions",
@@ -97,20 +97,20 @@
     "rating": 4.2,
     "description": "Smart scheduling and meeting organizer. Finds the best time for everyone and automatically handles time zone conversions.",
     "features": [
-        "Automated group meeting proposals",
-        "Integration with major calendar platforms (Google, Outlook)",
-        "Time zone management",
-        "Customizable availability settings"
+      "Automated group meeting proposals",
+      "Integration with major calendar platforms (Google, Outlook)",
+      "Time zone management",
+      "Customizable availability settings"
     ],
     "reviews": [
-        {
-            "user": "Kutub Tawsif",
-            "rating": 4,
-            "comment": "Good tool for team scheduling. Saves a lot of back-and-forth email time."
-        }
+      {
+        "user": "Kutub Tawsif",
+        "rating": 4,
+        "comment": "Good tool for team scheduling. Saves a lot of back-and-forth email time."
+      }
     ]
-},
- {
+  },
+  {
     "id": "5",
     "name": "SleepZen",
     "developer": "Restful Rhythms",
@@ -121,25 +121,25 @@
     "rating": 4.7,
     "description": "Guided meditations and sleep stories for better rest. Quiet your mind and drift off to sleep faster and deeper.",
     "features": [
-        "Library of professional guided meditations",
-        "Soothing soundscapes and white noise options",
-        "Sleep tracking and analysis",
-        "Daily relaxation reminders"
+      "Library of professional guided meditations",
+      "Soothing soundscapes and white noise options",
+      "Sleep tracking and analysis",
+      "Daily relaxation reminders"
     ],
     "reviews": [
-        {
-            "user": "Fahim haider",
-            "rating": 5,
-            "comment": "The sleep stories are fantastic! This app is now essential to my nightly routine."
-        },
-        {
-            "user": "Muntasir",
-            "rating": 4,
-            "comment": "Helps me relax, but the premium content is a bit expensive."
-        }
+      {
+        "user": "Fahim haider",
+        "rating": 5,
+        "comment": "The sleep stories are fantastic! This app is now essential to my nightly routine."
+      },
+      {
+        "user": "Muntasir",
+        "rating": 4,
+        "comment": "Helps me relax, but the premium content is a bit expensive."
+      }
     ]
-},
- {
+  },
+  {
     "id": "6",
     "name": "FitTracker Pro",
     "developer": "Peak Performance Devs",
@@ -150,25 +150,25 @@
     "rating": 4.9,
     "description": "Monitor daily activity, steps, and calories burned with precise accuracy. Your all-in-one fitness dashboard.",
     "features": [
-        "GPS tracking for running/cycling",
-        "Detailed heart rate monitoring (via device sync)",
-        "Goal setting and achievement badges",
-        "Social sharing of workout results"
+      "GPS tracking for running/cycling",
+      "Detailed heart rate monitoring (via device sync)",
+      "Goal setting and achievement badges",
+      "Social sharing of workout results"
     ],
     "reviews": [
-        {
-            "user": "Mahi",
-            "rating": 5,
-            "comment": "The best tracker I've ever used. The data visualization is clear and highly motivating."
-        },
-        {
-            "user": "Tanim",
-            "rating": 5,
-            "comment": "Perfect for serious athletes and casual exercisers alike."
-        }
+      {
+        "user": "Mahi",
+        "rating": 5,
+        "comment": "The best tracker I've ever used. The data visualization is clear and highly motivating."
+      },
+      {
+        "user": "Tanim",
+        "rating": 5,
+        "comment": "Perfect for serious athletes and casual exercisers alike."
+      }
     ]
-},
- {
+  },
+  {
     "id": "7",
     "name": "MindfulMeals",
     "developer": "NutriSense AI",
@@ -179,20 +179,20 @@
     "rating": 4.4,
     "description": "AI-powered meal logging and nutritional analysis. Snap a photo of your plate to instantly get calorie and macro counts.",
     "features": [
-        "Photo-based meal recognition",
-        "Comprehensive nutritional database",
-        "Dietary restriction filtering (keto, vegan, etc.)",
-        "Hydration and weight tracking"
+      "Photo-based meal recognition",
+      "Comprehensive nutritional database",
+      "Dietary restriction filtering (keto, vegan, etc.)",
+      "Hydration and weight tracking"
     ],
     "reviews": [
-        {
-            "user": "Nabil",
-            "rating": 4,
-            "comment": "The photo logging feature is a huge time-saver. Accuracy is generally good, but sometimes needs minor corrections."
-        }
+      {
+        "user": "Nabil",
+        "rating": 4,
+        "comment": "The photo logging feature is a huge time-saver. Accuracy is generally good, but sometimes needs minor corrections."
+      }
     ]
-},
- {
+  },
+  {
     "id": "8",
     "name": "HydrateNow",
     "developer": "Aqua Devs",
@@ -203,25 +203,25 @@
     "rating": 4.6,
     "description": "Reminders to keep you hydrated throughout the day. Personalized goal setting based on your activity and climate.",
     "features": [
-        "Personalized daily water goal calculation",
-        "Customizable reminder frequency",
-        "Input for various drink types (water, tea, coffee)",
-        "Streak tracking and goal visualization"
+      "Personalized daily water goal calculation",
+      "Customizable reminder frequency",
+      "Input for various drink types (water, tea, coffee)",
+      "Streak tracking and goal visualization"
     ],
     "reviews": [
-        {
-            "user": "Mahim",
-            "rating": 5,
-            "comment": "I finally drink enough water! The reminders are gentle but effective."
-        },
-        {
-            "user": "Tanjim",
-            "rating": 4,
-            "comment": "Excellent tracker. Integration with my fitness watch works flawlessly."
-        }
+      {
+        "user": "Mahim",
+        "rating": 5,
+        "comment": "I finally drink enough water! The reminders are gentle but effective."
+      },
+      {
+        "user": "Tanjim",
+        "rating": 4,
+        "comment": "Excellent tracker. Integration with my fitness watch works flawlessly."
+      }
     ]
-},
- {
+  },
+  {
     "id": "9",
     "name": "PixelBrush",
     "developer": "Artistic Tools Ltd.",
@@ -232,25 +232,25 @@
     "rating": 4.8,
     "description": "A powerful digital drawing and painting application. Featuring advanced layers, custom brush libraries, and high-resolution canvas support.",
     "features": [
-        "Fully customizable brush engine",
-        "Layer management and blending modes",
-        "Pressure sensitivity support",
-        "Export to various file formats (PSD, PNG, JPG)"
+      "Fully customizable brush engine",
+      "Layer management and blending modes",
+      "Pressure sensitivity support",
+      "Export to various file formats (PSD, PNG, JPG)"
     ],
     "reviews": [
-        {
-            "user": "Mahir Jamal",
-            "rating": 5,
-            "comment": "Rivals desktop software! The brush customization options are insane."
-        },
-        {
-            "user": "Asfaqur Farez",
-            "rating": 4,
-            "comment": "Great tool, though it takes a little while to learn all the features."
-        }
+      {
+        "user": "Mahir Jamal",
+        "rating": 5,
+        "comment": "Rivals desktop software! The brush customization options are insane."
+      },
+      {
+        "user": "Asfaqur Farez",
+        "rating": 4,
+        "comment": "Great tool, though it takes a little while to learn all the features."
+      }
     ]
-},
- {
+  },
+  {
     "id": "10",
     "name": "VideoEdit Pro",
     "developer": "Mobile Cinema Co.",
@@ -261,24 +261,24 @@
     "rating": 4.3,
     "description": "Professional-grade mobile video editing tools. Edit, cut, add transitions, and apply cinema-quality filters right on your phone.",
     "features": [
-        "Multi-track timeline editing",
-        "4K video export support",
-        "Library of transitions and effects",
-        "Keyframe animation tools"
+      "Multi-track timeline editing",
+      "4K video export support",
+      "Library of transitions and effects",
+      "Keyframe animation tools"
     ],
     "reviews": [
-        {
-            "user": "tasbir",
-            "rating": 4,
-            "comment": "Solid mobile editor. Fast rendering speed is a huge plus for quick uploads."
-        },
-        {
-            "user": "Jamshed",
-            "rating": 4,
-            "comment": "Good range of tools, though some advanced features are locked behind a paywall."
-        }
+      {
+        "user": "tasbir",
+        "rating": 4,
+        "comment": "Solid mobile editor. Fast rendering speed is a huge plus for quick uploads."
+      },
+      {
+        "user": "Jamshed",
+        "rating": 4,
+        "comment": "Good range of tools, though some advanced features are locked behind a paywall."
+      }
     ]
-},
+  },
   {
     "id": "11",
     "name": "MusicMixer",
@@ -290,25 +290,25 @@
     "rating": 4.7,
     "description": "Create and mix beats easily with built-in loops and virtual instruments. Perfect for beginners and seasoned producers.",
     "features": [
-        "Hundreds of royalty-free loops and samples",
-        "MIDI input compatibility",
-        "Live recording and overdubbing",
-        "Multi-channel mixer interface"
+      "Hundreds of royalty-free loops and samples",
+      "MIDI input compatibility",
+      "Live recording and overdubbing",
+      "Multi-channel mixer interface"
     ],
     "reviews": [
-        {
-            "user": "Jahangir Reza",
-            "rating": 5,
-            "comment": "So much fun! I made my first track within an hour. Highly recommended for music hobbyists."
-        },
-        {
-            "user": "Mahmud",
-            "rating": 4,
-            "comment": "Great starting point, excellent loop library."
-        }
+      {
+        "user": "Jahangir Reza",
+        "rating": 5,
+        "comment": "So much fun! I made my first track within an hour. Highly recommended for music hobbyists."
+      },
+      {
+        "user": "Mahmud",
+        "rating": 4,
+        "comment": "Great starting point, excellent loop library."
+      }
     ]
-},
- {
+  },
+  {
     "id": "12",
     "name": "DesignGenie",
     "developer": "Visual Magic Studios",
@@ -319,26 +319,26 @@
     "rating": 4.1,
     "description": "Simple graphic design for social media and branding. Drag-and-drop interface with thousands of templates, making professional-looking visuals accessible to everyone.",
     "features": [
-        "Pre-sized templates for all social platforms",
-        "Extensive stock photo and icon library",
-        "Collaboration tools for teams",
-        "One-click background remover"
+      "Pre-sized templates for all social platforms",
+      "Extensive stock photo and icon library",
+      "Collaboration tools for teams",
+      "One-click background remover"
     ],
     "reviews": [
-        {
-            "user": "Muhit",
-            "rating": 4,
-            "comment": "Makes designing quick and easy. Essential for my daily social media posting."
-        },
-        {
-            "user": "Tawsif",
-            "rating": 4,
-            "comment": "Very intuitive and easy to use, perfect for someone with no prior design experience."
-        }
+      {
+        "user": "Muhit",
+        "rating": 4,
+        "comment": "Makes designing quick and easy. Essential for my daily social media posting."
+      },
+      {
+        "user": "Tawsif",
+        "rating": 4,
+        "comment": "Very intuitive and easy to use, perfect for someone with no prior design experience."
+      }
     ]
-},
+  },
 
- {
+  {
     "id": "13",
     "name": "TaskMaster",
     "developer": "Productivity Hub",
@@ -349,24 +349,24 @@
     "rating": 4.9,
     "description": "Advanced task management and team collaboration. Organize projects, track progress, and communicate seamlessly with your team.",
     "features": [
-        "Kanban, Calendar, and List views",
-        "Real-time team collaboration",
-        "Automated deadline reminders",
-        "Integration with cloud storage"
+      "Kanban, Calendar, and List views",
+      "Real-time team collaboration",
+      "Automated deadline reminders",
+      "Integration with cloud storage"
     ],
     "reviews": [
-        {
-            "user": "jamil AS-Ad",
-            "rating": 5,
-            "comment": "The best tool for managing complex projects. The collaboration features are flawless."
-        },
-        {
-            "user": "Ryhanuzzaman",
-            "rating": 5,
-            "comment": "Even for solo work, this app is incredibly powerful for staying organized."
-        }
+      {
+        "user": "jamil AS-Ad",
+        "rating": 5,
+        "comment": "The best tool for managing complex projects. The collaboration features are flawless."
+      },
+      {
+        "user": "Ryhanuzzaman",
+        "rating": 5,
+        "comment": "Even for solo work, this app is incredibly powerful for staying organized."
+      }
     ]
-},
+  },
   {
     "id": "14",
     "name": "YogaDaily",
@@ -378,24 +378,24 @@
     "rating": 4.8,
     "description": "Daily guided yoga and fitness routines for all levels, from beginner to advanced. Focus on flexibility, strength, and mindfulness.",
     "features": [
-        "HD video and audio guidance",
-        "Routines categorized by goal (sleep, stress, energy)",
-        "Personalized daily practice plans",
-        "Offline viewing capability"
+      "HD video and audio guidance",
+      "Routines categorized by goal (sleep, stress, energy)",
+      "Personalized daily practice plans",
+      "Offline viewing capability"
     ],
     "reviews": [
-        {
-            "user": "Nazmul farhad",
-            "rating": 5,
-            "comment": "Fantastic instructors and beautiful interface. My daily go-to for yoga."
-        },
-        {
-            "user": "Adnan Kibria",
-            "rating": 4,
-            "comment": "Great starting point for beginners, very clear instructions."
-        }
+      {
+        "user": "Nazmul farhad",
+        "rating": 5,
+        "comment": "Fantastic instructors and beautiful interface. My daily go-to for yoga."
+      },
+      {
+        "user": "Adnan Kibria",
+        "rating": 4,
+        "comment": "Great starting point for beginners, very clear instructions."
+      }
     ]
-},
+  },
   {
     "id": "15",
     "name": "PhotoTune",
@@ -407,19 +407,19 @@
     "rating": 4.6,
     "description": "Intuitive photo editor with professional filters. Easily crop, adjust lighting, and apply advanced color corrections.",
     "features": [
-        "Curated library of artistic filters",
-        "Precision adjustment tools (HSL, curves)",
-        "Non-destructive editing",
-        "Batch editing for quick workflows"
+      "Curated library of artistic filters",
+      "Precision adjustment tools (HSL, curves)",
+      "Non-destructive editing",
+      "Batch editing for quick workflows"
     ],
     "reviews": [
-        {
-            "user": "Hasibur",
-            "rating": 5,
-            "comment": "Best mobile editor for quickly getting a professional look. The filters are stunning."
-        }
+      {
+        "user": "Hasibur",
+        "rating": 5,
+        "comment": "Best mobile editor for quickly getting a professional look. The filters are stunning."
+      }
     ]
-},
+  },
   {
     "id": "16",
     "name": "HabitForge",
@@ -431,22 +431,22 @@
     "rating": 4.7,
     "description": "Build and track positive habits easily. Uses psychological principles to help you stay motivated and build lasting routines.",
     "features": [
-        "Visual streak tracking",
-        "Motivational reminders and cues",
-        "Goal setting and breakdown",
-        "Detailed performance analytics"
+      "Visual streak tracking",
+      "Motivational reminders and cues",
+      "Goal setting and breakdown",
+      "Detailed performance analytics"
     ],
     "reviews": [
-        {
-            "user": "Aftakhil",
-            "rating": 5,
-            "comment": "This app turned my life around! The streak feature is incredibly motivating."
-        },
-        {
-            "user": "Zillur rahman",
-            "rating": 4,
-            "comment": "Simple interface and great tracking. I wish there were more integrations."
-        }
+      {
+        "user": "Aftakhil",
+        "rating": 5,
+        "comment": "This app turned my life around! The streak feature is incredibly motivating."
+      },
+      {
+        "user": "Zillur rahman",
+        "rating": 4,
+        "comment": "Simple interface and great tracking. I wish there were more integrations."
+      }
     ]
-}
+  }
 ]
