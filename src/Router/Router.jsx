@@ -6,6 +6,7 @@ import Login from "../AuthPages/Login";
 import Auth from "../AuthPages/Auth";
 import Register from "../AuthPages/Register";
 import AppDetail from "../Pages/AppsDetails";
+import MyProfile from "../Pages/MyProfile";
 
 // The loader function remains unchanged
 const appsLoader = async () => {
@@ -33,7 +34,11 @@ export const router = createBrowserRouter([
         loader: appsLoader,
       },
       {
-        
+        path: "/my-profile",
+        element: <MyProfile></MyProfile>
+      
+      },
+      { 
         
         path: "app/:id",
         element: <AppDetail></AppDetail>,

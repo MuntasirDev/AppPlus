@@ -205,7 +205,7 @@ const AppDetail = () => {
                         className="w-full h-full object-cover brightness-75"
                     />
                     {/* Note: background is used here to match the intended theme blending */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/50 to-transparent" /> 
+                    <div className="absolute inset-0 bg-linear-to-t from-gray-950 via-gray-950/50 to-transparent" /> 
                 </div>
                 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
