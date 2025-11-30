@@ -17,7 +17,7 @@ const Navbar = () => {
         console.log("User signed out successfully.");
       })
       .catch((error) => {
-        console.error("Logout error:", error);
+        
       });
   };
 

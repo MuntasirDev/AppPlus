@@ -26,7 +26,7 @@ const Register = () => {
     createUser(email, password)
       .then((result) => {
         const user = result.user;
-        console.log("User created successfully:", user);
+        // console.log("User created successfully:", user);
 
         updateUserProfile(user, name, photo)
           .then(() => {
@@ -35,7 +35,7 @@ const Register = () => {
             form.reset();
           })
           .catch((profileError) => {
-            console.error("Profile update error:", profileError);
+            // console.error("Profile update error:", profileError);
             alert(`Profile Update Failed: ${profileError.message}`);
             navigate("/");
           });
@@ -52,11 +52,11 @@ const Register = () => {
     signInWithGoogle()
       .then((result) => {
         const user = result.user;
-        console.log("Google Sign-In successful:", user);
+        // console.log("Google Sign-In successful:", user);
         navigate("/");
       })
       .catch((error) => {
-        console.error("Google Sign-In failed:", error);
+        // console.error("Google Sign-In failed:", error);
         alert(`Google Sign-In Failed: ${error.message}`);
       });
   };

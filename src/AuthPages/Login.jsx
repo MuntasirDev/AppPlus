@@ -22,7 +22,7 @@ const Login = () => {
     signIn(email, password)
       .then((result) => {
         const user = result.user;
-        console.log("User logged in:", user);
+       
 
         navigate("/");
 
@@ -46,11 +46,11 @@ const Login = () => {
     signInWithGoogle()
       .then((result) => {
         const user = result.user;
-        console.log("Google user logged in:", user);
+        // console.log("Google user logged in:", user);
         navigate("/");
       })
       .catch((error) => {
-        console.error("Google Sign-In Failed:", error);
+        // console.error("Google Sign-In Failed:", error);
         alert(`Google Sign-In Failed: ${error.message}`);
       });
   };

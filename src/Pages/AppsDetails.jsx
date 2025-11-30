@@ -4,7 +4,6 @@ import { Star, Download, CheckCircle, User } from "lucide-react";
 
 const useToast = () => ({
   toast: ({ title, description }) => {
-    console.log(`TOAST - ${title}: ${description}`);
   },
 });
 const useAuth = () => ({

@@ -7,6 +7,7 @@ import Home from "../Pages/Home";
 const HomeLayouts = () => {
   return (
     <div>
+      {import.meta.env.VITE_name}
       <NavBar></NavBar>
       <Outlet></Outlet>
       <Footer></Footer>

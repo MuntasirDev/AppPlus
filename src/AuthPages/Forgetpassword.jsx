@@ -12,7 +12,7 @@ const outlineButtonClass =
 const useAuth = () => ({
   
   resetPassword: async (email) => {
-    console.log(`Sending reset email to: ${email}`);
+    
     
     return new Promise((resolve) => setTimeout(resolve, 1500));
   },
