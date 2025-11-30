@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Mail, CheckCircle } from "lucide-react";
-
-// --- Custom/Reused Theme Variables ---
 const brandGradientBackground =
   "bg-gradient-to-r from-indigo-600 to-teal-500";
 
@@ -10,18 +8,15 @@ const primaryButtonClass = `w-full py-3 rounded-xl text-lg font-bold transition 
 
 const outlineButtonClass =
   "bg-transparent text-white border-2 border-indigo-600 font-semibold py-3 px-8 rounded-lg hover:bg-indigo-600/10 transition-colors text-lg";
-// ---
 
-// Placeholder hook for your Auth Context (replace with your actual implementation)
 const useAuth = () => ({
-  // This simulates the function that talks to your backend/Firebase
+  
   resetPassword: async (email) => {
     console.log(`Sending reset email to: ${email}`);
-    // In a real app, this would be an API call or Firebase function.
-    // Simulating a delay/success for the demo.
+    
     return new Promise((resolve) => setTimeout(resolve, 1500));
   },
-  // If you had a custom error state, you'd handle it here.
+  
 });
 
 const Forgetpassword = () => {
@@ -41,13 +36,13 @@ const Forgetpassword = () => {
       await resetPassword(email);
       setSubmitted(true);
     } catch (err) {
-      // Assuming a simple error structure
+     
       setError(err?.message || "Failed to send reset email. Please try again.");
       setLoading(false);
     }
   };
 
-  // --- Success State UI ---
+  
   if (submitted) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-950 text-white py-12 px-4">

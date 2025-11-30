@@ -1,5 +1,3 @@
-// src/pages/Register.jsx
-
 import React, { useContext } from "react";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -12,10 +10,10 @@ const textGradientClass =
 const brandGradientBackground = "bg-gradient-to-r from-indigo-600 to-teal-500";
 
 const Register = () => {
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   const { createUser, setUser, updateUserProfile, signInWithGoogle } =
-    useContext(AuthContext); 
+    useContext(AuthContext);
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -51,7 +49,6 @@ const Register = () => {
   };
 
   const handleGoogleClick = () => {
-    
     signInWithGoogle()
       .then((result) => {
         const user = result.user;
