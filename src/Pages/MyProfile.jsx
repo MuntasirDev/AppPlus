@@ -55,7 +55,7 @@ const MyProfile = () => {
 
         setIsUpdating(true);
 
-        try { await updateUserProfile(name, photoURL); 
+        try { await updateUserProfile(user ,name, photoURL); 
             alert("Profile updated successfully!"); 
         } catch (error) {
             console.error("Profile update failed:", error);

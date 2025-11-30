@@ -7,8 +7,9 @@ import Auth from "../AuthPages/Auth";
 import Register from "../AuthPages/Register";
 import AppDetail from "../Pages/AppsDetails";
 import MyProfile from "../Pages/MyProfile";
+import Error from "../Pages/Error";
+import AboutOurGoals from "../Pages/AboutOurGoals";
 
-// The loader function remains unchanged
 const appsLoader = async () => {
   const response = await fetch("/Apps.json");
   if (!response.ok) {
@@ -23,12 +24,12 @@ export const router = createBrowserRouter([
     element: <HomeLayouts />,
     children: [
       {
-        // Root path of the application when using HomeLayouts
+       
         index: true,
         element: <Home />,
       },
       {
-        // Full path: /apps
+       
         path: "apps",
         element: <BrowseApps />,
         loader: appsLoader,
@@ -42,6 +43,10 @@ export const router = createBrowserRouter([
         element: <AppDetail></AppDetail>,
         loader: appsLoader,
       },
+      {
+        path:"Our-Goals",
+        element: <AboutOurGoals></AboutOurGoals>
+      }
     ],
   },
   {
@@ -59,4 +64,8 @@ export const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "*",
+    element:<Error></Error>
+  }
 ]);

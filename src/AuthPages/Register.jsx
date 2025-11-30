@@ -1,3 +1,5 @@
+// src/pages/Register.jsx
+
 import React, { useContext } from "react";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -10,9 +12,10 @@ const textGradientClass =
 const brandGradientBackground = "bg-gradient-to-r from-indigo-600 to-teal-500";
 
 const Register = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate(); // Destructure the new signInWithGoogle function
 
-  const { createUser, setUser, updateUserProfile } = useContext(AuthContext);
+  const { createUser, setUser, updateUserProfile, signInWithGoogle } =
+    useContext(AuthContext); // --- Email/Password Registration Handler (Unchanged) ---
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -25,7 +28,7 @@ const Register = () => {
     createUser(email, password)
       .then((result) => {
         const user = result.user;
-        console.log("User created successfully:", user);
+        console.log("User created successfully:", user); // Pass the user object to updateUserProfile
 
         updateUserProfile(user, name, photo)
           .then(() => {
@@ -34,7 +37,7 @@ const Register = () => {
             form.reset();
           })
           .catch((profileError) => {
-            console.error("Profile update error:", profileError);
+            console.error("Profile update error:", profileError); // Note: Even if profile update fails, the base user exists, so we navigate
             alert(`Profile Update Failed: ${profileError.message}`);
             navigate("/");
           });
@@ -48,39 +51,51 @@ const Register = () => {
   };
 
   const handleGoogleClick = () => {
-    console.log("Google button clicked - Logic disabled");
+    // Use the function from AuthContext to sign in
+    signInWithGoogle()
+      .then((result) => {
+        const user = result.user;
+        console.log("Google Sign-In successful:", user);
+        navigate("/");
+      })
+      .catch((error) => {
+        console.error("Google Sign-In failed:", error);
+        alert(`Google Sign-In Failed: ${error.message}`);
+      });
   };
 
   return (
     <div className="min-h-screen bg-gray-950 flex items-center justify-center py-12 px-4 text-white">
-             {" "}
+                         {" "}
       <div className="w-full max-w-md bg-gray-900 border border-gray-800 rounded-xl shadow-2xl">
-                 {" "}
+                                 {" "}
         <header className="p-6 space-y-2 text-center border-b border-gray-800">
-                     {" "}
+                                         {" "}
           <h1 className="text-3xl font-extrabold tracking-tight">
-                          Create Your Account            {" "}
+                                      Create Your Account                      {" "}
           </h1>
-                     {" "}
+                                         {" "}
           <p className="text-gray-400">
-                          Enter your details below to get started            {" "}
+                                      Enter your details below to get started  
+                               {" "}
           </p>
-                   {" "}
+                                     {" "}
         </header>
-                 {" "}
+                                 {" "}
         <div className="p-6 space-y-6">
-                     {" "}
+                                         {" "}
           <form onSubmit={handleSubmit} className="space-y-4">
-                         {" "}
+                                                 {" "}
             <div className="space-y-2">
-                             {" "}
+                                                         {" "}
               <label
                 htmlFor="name"
                 className="text-sm font-medium leading-none block text-gray-300"
               >
-                                  Full Name                {" "}
+                                                  Full Name                    
+                         {" "}
               </label>
-                             {" "}
+                                                         {" "}
               <input
                 name="name"
                 type="text"
@@ -88,18 +103,19 @@ const Register = () => {
                 required
                 className="flex h-10 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-sm text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500 transition-colors"
               />
-                           {" "}
+                                                     {" "}
             </div>
-                         {" "}
+                                                 {" "}
             <div className="space-y-2">
-                             {" "}
+                                                         {" "}
               <label
                 htmlFor="email"
                 className="text-sm font-medium leading-none block text-gray-300"
               >
-                                  Email                {" "}
+                                                  Email                        
+                     {" "}
               </label>
-                             {" "}
+                                                         {" "}
               <input
                 name="email"
                 type="email"
@@ -107,18 +123,19 @@ const Register = () => {
                 required
                 className="flex h-10 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-sm text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500 transition-colors"
               />
-                           {" "}
+                                                     {" "}
             </div>
-                         {" "}
+                                                 {" "}
             <div className="space-y-2">
-                             {" "}
+                                                         {" "}
               <label
                 htmlFor="Photo"
                 className="text-sm font-medium leading-none block text-gray-300"
               >
-                                  Photo URL                {" "}
+                                                  Photo URL                    
+                         {" "}
               </label>
-                             {" "}
+                                                         {" "}
               <input
                 name="photo"
                 type="text"
@@ -126,18 +143,19 @@ const Register = () => {
                 required
                 className="flex h-10 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-sm text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500 transition-colors"
               />
-                           {" "}
+                                                     {" "}
             </div>
-                         {" "}
+                                                 {" "}
             <div className="space-y-2">
-                             {" "}
+                                                         {" "}
               <label
                 htmlFor="password"
                 className="text-sm font-medium leading-none block text-gray-300"
               >
-                                  Password                {" "}
+                                                  Password                      
+                       {" "}
               </label>
-                             {" "}
+                                                         {" "}
               <input
                 name="password"
                 type="password"
@@ -145,59 +163,62 @@ const Register = () => {
                 required
                 className="flex h-10 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-sm text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500 transition-colors"
               />
-                           {" "}
+                                                     {" "}
             </div>
-                         {" "}
+                                                 {" "}
             <button
               type="submit"
               className={`w-full h-10 inline-flex items-center justify-center rounded-lg text-sm font-medium text-white shadow-lg transition-all duration-200 ${brandGradientBackground} hover:opacity-90 active:scale-[0.98]`}
             >
-                              Sign Up              {" "}
+                                            Sign Up                          {" "}
             </button>
-                       {" "}
+                                             {" "}
           </form>
-                   {" "}
+                                       {" "}
           <div className="relative">
-                       {" "}
+                                               {" "}
             <div className="absolute inset-0 flex items-center">
-                           {" "}
+                                                       {" "}
               <div className="w-full border-t border-gray-700"></div>           {" "}
-            </div>
-                       {" "}
-            <div className="relative flex justify-center text-sm">
-                           {" "}
-              <span className="bg-gray-900 px-2 text-gray-500">
-                                Or sign up with              {" "}
-              </span>
                          {" "}
             </div>
-                     {" "}
+                                               {" "}
+            <div className="relative flex justify-center text-sm">
+                                                       {" "}
+              <span className="bg-gray-900 px-2 text-gray-500">
+                                                Or sign up with                
+                           {" "}
+              </span>
+                                                   {" "}
+            </div>
+                                           {" "}
           </div>
-                   {" "}
+                                       {" "}
           <button
             type="button"
             className="w-full h-10 inline-flex items-center justify-center rounded-lg border border-gray-700 bg-gray-900 text-sm font-medium text-gray-300 shadow-sm hover:bg-gray-800 transition-colors duration-200 active:scale-[0.98]"
             onClick={handleGoogleClick}
           >
-                        <BsGoogle className="mr-2 h-5 w-5 " />            Sign
-            up with Google          {" "}
+                                    <BsGoogle className="mr-2 h-5 w-5 " />     
+                  Sign             up with Google                    {" "}
           </button>
-                   {" "}
+                                       {" "}
           <p className="text-center text-sm text-gray-500">
-                        Already have an account?            {" "}
+                                    Already have an account?                    
+               {" "}
             <Link
               to="/auth/login"
               className={`hover:underline font-medium ${textGradientClass}`}
             >
-                            Log in            {" "}
+                                          Sign in                        {" "}
             </Link>
-                     {" "}
+                                           {" "}
           </p>
-                 {" "}
+                                   {" "}
         </div>
-             {" "}
+                           {" "}
       </div>
-         {" "}
+                   {" "}
     </div>
   );
 };
