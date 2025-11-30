@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router"; // Keeping the user's requested import path
+import { createBrowserRouter } from "react-router-dom";
 import HomeLayouts from "../Layouts/HomeLayouts";
 import Home from "../Pages/Home";
 import BrowseApps from "../Pages/browseApps";
@@ -9,8 +9,11 @@ import AppDetail from "../Pages/AppsDetails";
 import MyProfile from "../Pages/MyProfile";
 import Error from "../Pages/Error";
 import AboutOurGoals from "../Pages/AboutOurGoals";
+import Privateroute from "../Provider/Privateroute";
+import Forgetpassword from "../AuthPages/Forgetpassword";
 
 const appsLoader = async () => {
+  // ... (unchanged)
   const response = await fetch("/Apps.json");
   if (!response.ok) {
     throw new Error("Failed to load Apps data.");
@@ -24,29 +27,35 @@ export const router = createBrowserRouter([
     element: <HomeLayouts />,
     children: [
       {
-       
         index: true,
         element: <Home />,
       },
       {
-       
         path: "apps",
         element: <BrowseApps />,
         loader: appsLoader,
       },
       {
-        path: "/my-profile",
-        element: <MyProfile></MyProfile>,
+        path: "my-profile",
+        element: (
+          <Privateroute>
+            <MyProfile />
+          </Privateroute>
+        ),
       },
       {
         path: "app/:id",
-        element: <AppDetail></AppDetail>,
+        element: (
+          <Privateroute>
+            <AppDetail />
+          </Privateroute>
+        ),
         loader: appsLoader,
       },
       {
-        path:"Our-Goals",
-        element: <AboutOurGoals></AboutOurGoals>
-      }
+        path: "Our-Goals",
+        element: <AboutOurGoals />,
+      },
     ],
   },
   {
@@ -54,18 +63,21 @@ export const router = createBrowserRouter([
     element: <Auth />,
     children: [
       {
-        path: "/auth/login",
-        element: <Login></Login>,
+        path: "login",
+        element: <Login />,
       },
-
       {
-        path: "/auth/register",
-        element: <Register></Register>,
+        path: "register",
+        element: <Register />,
       },
+      {
+        path: "forgot-password",
+        element: <Forgetpassword></Forgetpassword>
+      }
     ],
   },
   {
     path: "*",
-    element:<Error></Error>
-  }
+    element: <Error />,
+  },
 ]);

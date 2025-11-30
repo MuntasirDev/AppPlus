@@ -12,10 +12,10 @@ const textGradientClass =
 const brandGradientBackground = "bg-gradient-to-r from-indigo-600 to-teal-500";
 
 const Register = () => {
-  const navigate = useNavigate(); // Destructure the new signInWithGoogle function
+  const navigate = useNavigate(); 
 
   const { createUser, setUser, updateUserProfile, signInWithGoogle } =
-    useContext(AuthContext); // --- Email/Password Registration Handler (Unchanged) ---
+    useContext(AuthContext); 
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -28,7 +28,7 @@ const Register = () => {
     createUser(email, password)
       .then((result) => {
         const user = result.user;
-        console.log("User created successfully:", user); // Pass the user object to updateUserProfile
+        console.log("User created successfully:", user);
 
         updateUserProfile(user, name, photo)
           .then(() => {
@@ -37,7 +37,7 @@ const Register = () => {
             form.reset();
           })
           .catch((profileError) => {
-            console.error("Profile update error:", profileError); // Note: Even if profile update fails, the base user exists, so we navigate
+            console.error("Profile update error:", profileError);
             alert(`Profile Update Failed: ${profileError.message}`);
             navigate("/");
           });
@@ -51,7 +51,7 @@ const Register = () => {
   };
 
   const handleGoogleClick = () => {
-    // Use the function from AuthContext to sign in
+    
     signInWithGoogle()
       .then((result) => {
         const user = result.user;
@@ -119,7 +119,7 @@ const Register = () => {
               <input
                 name="email"
                 type="email"
-                placeholder="Enter Your Email"
+                placeholder="you@appplus.com"
                 required
                 className="flex h-10 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-sm text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500 transition-colors"
               />

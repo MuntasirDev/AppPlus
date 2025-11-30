@@ -68,7 +68,7 @@ const Navbar = () => {
                   isActive("/Our-Goals") ? textGradientClass : "text-white/80"
                 }`}
               >
-                About US
+                About Us
               </Link>
             )}
 

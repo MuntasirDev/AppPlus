@@ -16,8 +16,8 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
-    const email = form.email.value;
-    const password = form.password.value;
+    const email = form.email.value.trim();
+    const password = form.password.value.trim();
 
     signIn(email, password)
       .then((result) => {
@@ -88,7 +88,7 @@ const Login = () => {
               <input
                 name="email"
                 type="email"
-                placeholder="you@example.com"
+                placeholder="you@appplus.com"
                 required
                 className="flex h-10 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-sm text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500 transition-colors"
               />
@@ -107,7 +107,7 @@ const Login = () => {
                 </label>
                                {" "}
                 <Link
-                  to="/forgot-password"
+                  to="/auth/forgot-password"
                   className={`text-sm hover:underline font-medium ${textGradientClass}`}
                 >
                                     Forgot password?                {" "}
